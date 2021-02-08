@@ -1,0 +1,1 @@
+print('Aplikacja do symulowania gier liczbowych')
