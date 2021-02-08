@@ -7,18 +7,34 @@ def show_menu():
     print("3 - Multi Multi")
     print("4 - Zakończ program")
 
+def big_lotto():
+    print("Duzy lotek")
+
+def mini_lotto():
+    print("Mini lotto")
+
+def multi_multi():
+    print("Multi multi")
+
+def exit():
+    print("Do zobaczenia ")
+    
+def error():
+    print("Błąd")
+
 while True:
     show_menu()
     user_choice = int(input("Wybierz pozycję z menu: "))
     print()
     if user_choice == 1:
-        print("Duzy lotek")
+        big_lotto()
     elif user_choice == 2:
-        print("Mini lotto")
+        mini_lotto()
     elif user_choice == 3:
-        print("Multi multi")
+        multi_multi()
     elif user_choice == 4:
+        exit()
         break
     else:
-        print("Błąd")
+        error()
 
